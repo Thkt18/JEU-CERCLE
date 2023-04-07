@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+#btn-red {
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: rouge;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rouge {
+    0% {left: 0; top: 0;}
+    25% {left: 0; top: 200px;}
+    50% {left: 200px; top: 200px;}
+    75% {left: 200px; top: 0;}
+    100% {left: 0; top: 0;}
+}
+
+#btn-blue {
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: bleu;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bleu {
+    0% {left: 0; top: 0;}
+    25% {left: 200px; top: 0;}
+    50% {left: 150px; top: 150px;}
+    75% {left: 0; top: 200px;}
+    100% {left: 0; top: 0;}
+}
+
+#btn-green {
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: vert;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes vert {
+    0% {left: 0; top: 0;}
+    25% {left: 130px; top: 0;}
+    50% {left: 220px; top: 160px;}
+    75% {left: 0; top: 130px;}
+    100% {left: 0; top: 0;}
+}
